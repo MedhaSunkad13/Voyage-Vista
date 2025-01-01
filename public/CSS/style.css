@@ -1,0 +1,244 @@
+body {
+  font-family: "Plus Jakarta Sans", sans-serif !important;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.container {
+  flex: 1;
+}
+
+h3 {
+  color: #fe424d !important;
+  font-weight: 600 !important;
+}
+
+/* Navbar */
+.navbar {
+  height: 5rem;
+  background-color: #fff;
+  box-shadow: 1px 2px 3px #8d8989 !important;
+}
+
+.fa-mountain-city {
+  color: #fe424d;
+  font-size: 2.5rem;
+}
+
+.nav-link {
+  font-weight: 500 !important;
+  font-size: 1.25rem !important;
+  /* transition: margin-left 2s ease-in-out !important; */
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+.f-info-links a {
+  text-decoration: none !important;
+  color: #222222 !important;
+  margin: 0.5rem;
+  font-weight: 500 !important;
+}
+
+.f-info-links a:hover {
+  text-decoration: underline !important;
+  color: #fe424d !important;
+}
+
+.f-info-links,
+.f-info-socials,
+.f-info-brand {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* vertical-align: middle; */
+}
+
+.f-info-brand {
+  color: #222222;
+  margin-top: 1rem;
+  font-size: 1.1rem;
+}
+
+.f-info-socials i {
+  margin-top: 1rem !important;
+  color: #222222 !important;
+  margin-right: 1rem;
+  font-size: 1.5rem;
+}
+
+.f-info-socials i:hover {
+  color: #fe424d !important;
+}
+
+.f-info {
+  text-align: center;
+  height: 8rem;
+  display: flex;
+  background-color: #ebebeb;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: space-evenly;
+}
+
+.heading {
+  margin: 1.5rem;
+}
+
+/*Cards*/
+.listing-card {
+  border: none !important;
+  margin-bottom: 2rem;
+}
+
+.listing-card img {
+  height: 18rem;
+  object-fit: cover;
+}
+
+.card-img-top {
+  border-radius: 1rem !important;
+  width: 100% !important;
+  object-fit: cover !important;
+}
+
+.card-body {
+  padding: 0 !important;
+}
+
+.card-text p {
+  font-weight: 400 !important;
+}
+
+.listing-link {
+  text-decoration: none;
+}
+
+/*Card-Effect*/
+.card-img-overlay {
+  opacity: 0;
+}
+
+.card-img-overlay:hover {
+  opacity: 0.25;
+  background-color: #fff;
+}
+
+/* Form container */
+.f-container {
+  /* border: 1px solid black; */
+  border-radius: 1.5rem;
+  padding: 1.5rem;
+  margin: 1.5rem;
+  box-shadow: 1px 2px 3px 3.5px #dfdbdb;
+}
+
+.mb-3 {
+  margin: 1rem;
+}
+
+.add-btn {
+  background-color: #fe424d !important;
+  border: none !important;
+  width: 5rem;
+  padding: 0.5rem !important;
+}
+
+/* Edit Page */
+
+.edit-btn {
+  background-color: #fe424d !important;
+  border: none !important;
+  width: 5rem;
+  padding: 0.5rem !important;
+}
+
+/* Show Page */
+
+.show-img {
+  height: 30vh;
+}
+
+.btns {
+  display: flex;
+}
+
+.show-card {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* Review Page */
+
+.review {
+  border-radius: 1.5rem;
+  padding: 1.5rem;
+  margin-top: 1.5rem;
+  box-shadow: 1px 2px 3px 3.5px #dfdbdb;
+  /* width: 185vh; */
+}
+
+.review-heading {
+  margin: 1rem;
+  color: #fe424d !important;
+}
+
+.btn {
+  margin-top: 1rem;
+  color: #fff;
+  border: none;
+}
+
+/* SignUp Form*/
+
+.signup {
+  border-radius: 1.5rem;
+  padding: 1.5rem;
+  margin-top: 1.5rem;
+  box-shadow: 1px 2px 3px 3.5px #dfdbdb;
+}
+
+.signup-heading {
+  text-align: center;
+  margin: 1rem;
+  color: #fe424d !important;
+}
+
+/* Login Form*/
+
+.login {
+  border-radius: 1.5rem;
+  padding: 1.5rem;
+  margin-top: 1.5rem;
+  box-shadow: 1px 2px 3px 3.5px #dfdbdb;
+}
+
+.login-heading {
+  text-align: center;
+  margin: 1rem;
+  color: #fe424d !important;
+}
+
+/* Original Image Styling in edit.ejs */
+.orgImg {
+  height: 12rem;
+  border-radius: 1.5rem;
+  box-shadow: 1px 2px 3px 3.5px #9e9d9d;
+}
+
+/* Map */
+#map {
+  height: 25.5rem;
+  width: 100vh;
+  border-radius: 1.2rem;
+}
+
+#mapHeading {
+  text-align: center;
+  margin-bottom: 1.3rem;
+}
